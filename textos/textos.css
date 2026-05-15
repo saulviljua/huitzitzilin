@@ -1,0 +1,48 @@
+body {
+    background-image: url("IMG_4010.JPG");
+    background-size: cover;
+    background-color: black;
+}
+
+h1,h3,p {
+    font-family:'Times New Roman', Times, serif;
+}
+
+small {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50%;
+}
+
+.blanco {
+    text-align: center;
+    border: 10px solid black;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+.blogs {
+    text-align: left;
+    border: 5px solid grey;
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+    font-size: 70%;
+}
+
+.botones img:hover{
+    animation: invert 0.25s steps(1) infinite;
+}
+@keyframes invert {
+    0% {
+        filter: none;
+    }
+    50% {
+        filter: invert(1);
+    }
+    100% {
+        filter: none;
+    }
+}

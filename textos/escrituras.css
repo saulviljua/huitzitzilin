@@ -1,0 +1,33 @@
+body {
+    background-image: url("IMG_4010.JPG");
+    background-size: cover;
+    background-color: black;
+}
+
+h1,h3,h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+p {
+    color:grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.negro {
+    text-align: center;
+    border: 10px solid white;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+}
+
+.blog {
+    text-align: left;
+    border: 5px solid grey;
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+    font-size: 70%;
+}

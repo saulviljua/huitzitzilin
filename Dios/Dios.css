@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estilo {
+    display: flex
+}
+
+.trece {
+    text-align: center;
+    font-size: 400%;
+    
+}
+
+.trece img {
+    width: 100%;
+}
+
+.columna {
+    max-width: 20%;
+    padding: 5% 10% 2% 10%;
+}
+
+.botones {
+    text-align:center;
+}
+
+.botones img:hover {
+    animation: invert 0.25s steps(1) infinite;
+}
+@keyframes invert {
+    0% {
+        filter: none;
+    }
+    50% {
+        filter: invert(1);
+    }
+    100% {
+        filter: none;
+    }
+}
