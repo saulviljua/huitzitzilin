@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.poemas {
+    padding: 1% 30% 1% 30%;
+    margin: auto;
+}
+
+.botones {
+    text-align:center;
+}
+
+.botones img:hover {
+    animation: invert 0.25s steps(1) infinite;
+}
+@keyframes invert {
+    0% {
+        filter: none;
+    }
+    50% {
+        filter: invert(1);
+    }
+    100% {
+        filter: none;
+    }
+}
