@@ -8,5 +8,5 @@ img.addEventListener("click", function() {
 });
 
 audio.onended = function() {
-    window.location.href="huitzitzilin/mundo/mundo.html"
+    window.location.href=/mundo/mundio.html"
 };
